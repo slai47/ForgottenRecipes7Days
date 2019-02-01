@@ -2,6 +2,25 @@
 <append xpath="/recipes">
 
 
+<!-- Arrow Conversions -->
+<recipe name="ammoArrowIron" count="1">
+	<ingredient name="ammoCrossbowBoltIron" count="1"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltIron" count="1">
+	<ingredient name="ammoArrowIron" count="1"/>
+</recipe>
+
+<recipe name="ammoArrowSteelAP" count="1">
+	<ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltSteelAP" count="1">
+	<ingredient name="ammoArrowSteelAP" count="1"/>
+</recipe>
+
+
+
 <!-- copy pasta code :)
 
 <recipe name="" count="">
