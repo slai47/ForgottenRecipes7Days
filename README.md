@@ -9,6 +9,7 @@ Adding back in recipes and items missing over the years from various mods or the
 * Standard Hollow point rounds
 * Mom's Spagetti
 * Arrow conversion
+* Serration Arrows
 * Scrap ammo to all parts
   * Turn bullet into all components with correct level
 * Batch recipes (multiple items for one click)
