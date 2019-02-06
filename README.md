@@ -4,25 +4,20 @@ Missing recipes from the game that have been forgotten over time or would help e
 ## Goals
 Adding back in recipes and items missing over the years from various mods or the main game that would be nice to have. 
 
-### Items adding
+### Items Added
 
 * Mom's Spagetti
 * Arrow conversion
 * Serration Arrows
-* Scrap ammo to all parts
-  * Turn bullet into all components with correct level
-* Batch recipes (multiple items for one click)
 * Health Waters (From valmod)
-* Medical Bandages from Regular Bandages
 * Medical Kits secondary recipes
-  * Use a varity of elements for them
-* Cooked can food
-  * Requires custom images
 * Small med kit
-  * Medical bandage
-  * Splint
-  * Bandage
+* Medical Bandages from Regular Bandages
 * Bandage to medical bandage
   * Aloe
-* Bandage
+* Coal Torch
+  
+### Items adding
+
+* Batch recipes (multiple items for one click)
 * Lock pick maybe

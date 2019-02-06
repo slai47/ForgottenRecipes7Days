@@ -169,6 +169,15 @@
 	<ingredient name="medicalSnowberryExtract" count="4"/>
 </recipe>
 
+<!-- Torch -->
+<recipe name="meleeToolTorch" count="1">
+	<ingredient name="resourceCoal" count="2"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<!-- Bulk Items -->
+
 <!-- copy pasta code :)
 
 <recipe name="" count="">
