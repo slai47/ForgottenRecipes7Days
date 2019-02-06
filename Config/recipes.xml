@@ -53,6 +53,122 @@
 	<ingredient name="resourceMechanicalParts" count="12"/>
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
+
+<recipe name="Mom's Spagetti" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="drinkCanEmpty" count="1"/>
+	<ingredient name="foodRawMeat" count="3"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodVegetableStew" count="1"/>
+</recipe>
+
+<!-- Conversion for first Aid bandages -->
+<recipe name="medicalFirstAidBandage" count="1" tags="learnable">
+	<ingredient name="medicalAloeCream" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+</recipe>
+
+
+<!-- medical Kits -->
+
+<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+	<ingredient name="medicalSplint" count="1"/>
+	<ingredient name="drugAntibiotics" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="2"/>
+</recipe>
+
+<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+	<ingredient name="medicalSplint" count="1"/>
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="2"/>
+</recipe>
+
+<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+	<ingredient name="medicalSplint" count="1"/>
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="2"/>
+</recipe>
+
+<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+	<ingredient name="medicalSplint" count="1"/>
+	<ingredient name="drugAntibiotics" count="1"/>
+	<ingredient name="medicalBandage" count="2"/>
+</recipe>
+
+<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+	<ingredient name="medicalBloodBag" count="1"/>
+	<ingredient name="drugAntibiotics" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+	<ingredient name="medicalBloodBag" count="1"/>
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<!-- First Aid Kits -->
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="medicalSplint" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="drugAntibiotics" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="medicalSplint" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="medicalSplint" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="medicalPlasterCast" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="medicalPlasterCast" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="medicalPlasterCast" count="1"/>
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+</recipe>
+
+<recipe name="Small First Aid Kit" count="1" craft_area="workbench">
+	<ingredient name="medicalPlasterCast" count="1"/>
+	<ingredient name="drugAntibiotics" count="1"/>
+</recipe>
+
+<recipe name="Medical Water" count="1" craft_area="campfire">
+	<ingredient name="drinkCanBoiledWater" count="1"/>
+	<ingredient name="drugVitamins" count="1"/>
+</recipe>
+
+<recipe name="Medical Water" count="1" craft_area="campfire">
+	<ingredient name="drinkCanBoiledWater" count="1"/>
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+</recipe>
+
+<recipe name="Medical Water" count="1" craft_area="campfire">
+	<ingredient name="drinkCanBoiledWater" count="1"/>
+	<ingredient name="medicalSnowberryExtract" count="4"/>
+</recipe>
+
 <!-- copy pasta code :)
 
 <recipe name="" count="">

@@ -6,7 +6,6 @@ Adding back in recipes and items missing over the years from various mods or the
 
 ### Items adding
 
-* Standard Hollow point rounds
 * Mom's Spagetti
 * Arrow conversion
 * Serration Arrows
@@ -14,6 +13,7 @@ Adding back in recipes and items missing over the years from various mods or the
   * Turn bullet into all components with correct level
 * Batch recipes (multiple items for one click)
 * Health Waters (From valmod)
+* Medical Bandages from Regular Bandages
 * Medical Kits secondary recipes
   * Use a varity of elements for them
 * Cooked can food
