@@ -21,3 +21,4 @@ Adding back in recipes and items missing over the years from various mods or the
 
 * Batch recipes (multiple items for one click)
 * Lock pick maybe
+* Enthonal and other gas mixtures
