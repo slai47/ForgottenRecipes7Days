@@ -245,6 +245,59 @@
 	<ingredient name="resourceNail" count="4"/>
 </recipe>
 
+<!-- Conversions -->
+<recipe name="ammo9mmBullet" count="2" craft_area="workbench"  >
+	<ingredient name="ammo762mmBulletFMJ" count="1"/>
+</recipe>
+<recipe name="ammo9mmBullet" count="3" craft_area="workbench"  >
+	<ingredient name="ammo44MagnumBullet" count="2"/>
+</recipe>
+<recipe name="ammo9mmBullet" count="2" craft_area="workbench"  >
+	<ingredient name="ammoShotgunShell" count="1"/>
+	<ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+
+<recipe name="ammo762mmBulletFMJ" count="1" craft_area="workbench"  >
+	<ingredient name="ammo9mmBullet" count="2"/>
+</recipe>
+<recipe name="ammo762mmBulletFMJ" count="2" craft_area="workbench"  >
+	<ingredient name="ammo44MagnumBullet" count="3"/>
+</recipe>
+<recipe name="ammo762mmBulletFMJ" count="2" craft_area="workbench"  >
+	<ingredient name="ammoShotgunShell" count="2"/>
+	<ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+
+<recipe name="ammo44MagnumBullet" count="2" craft_area="workbench"  >
+	<ingredient name="ammo9mmBullet" count="3"/>
+</recipe>
+<recipe name="ammo44MagnumBullet" count="3" craft_area="workbench"  >
+	<ingredient name="ammo762mmBulletFMJ" count="2"/>
+</recipe>
+<recipe name="ammo44MagnumBullet" count="2" craft_area="workbench"  >
+	<ingredient name="ammoShotgunShell" count="2"/>
+	<ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+
+<recipe name="ammoShotgunShell" count="1" craft_area="workbench"  >
+	<ingredient name="ammo9mmBullet" count="2"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+<recipe name="ammoShotgunShell" count="1" craft_area="workbench"  >
+	<ingredient name="ammo762mmBulletFMJ" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+<recipe name="ammoShotgunShell" count="1" craft_area="workbench"  >
+	<ingredient name="ammo44MagnumBullet" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+
 
 </append>
 </configs>
