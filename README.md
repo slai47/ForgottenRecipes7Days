@@ -16,9 +16,11 @@ Adding back in recipes and items missing over the years from various mods or the
 * Bandage to medical bandage
   * Aloe
 * Coal Torch
+* Weight based Ammo Conversions
+* Enthonal and other gas mixtures
+* Additional Repair kit recipes
+
   
 ### Items adding
 
-* Batch recipes (multiple items for one click)
 * Lock pick maybe
-* Enthonal and other gas mixtures

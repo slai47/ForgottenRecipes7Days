@@ -315,6 +315,61 @@
 	</effect_group>
 </recipe>
 
+<item name="Lock Pick">
+	<property name="Tags" value="melee,light,tool,perkMotherLode"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="HoldType" value="36"/>
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShivPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="EconomicValue" value="2"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="CustomIconTint" value="000000"/>
+
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Damage_type" value="Slashing"/>
+		<property name="Sphere" value="0.1"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+			<!-- value = harvest event multiplier, param1 = damage multiplier if matching harvest event present on the block -->
+			<!-- cars explode when destroyed by a tool without harvest settings -->
+		<property name="ToolCategory.Butcher" value="0" param1="4"/>
+			<!-- value = old harvest multiplier; param1= corpse damage multiplier; zombie (non-harvest) corpses have very high hit points to not instagib from auto-fire guns -->
+		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+			<!-- Special harvest sound only plays if the target has ANY matching ToolCategory harvest.
+				Limited by: if ( Sound_harvesting.param1 = TargetBlockOrEntity.material.surface_category ) -->
+	</property>
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Damage_type" value="Slashing"/>
+		<property name="Sphere" value="0.1"/>
+		<property name="Sound_start" value="repair_block"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		<property name="ToolCategory.Butcher" value="0" param1="4"/>
+		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+	</property>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="MaxRange" operation="base_set" value="2.0"/>
+		<passive_effect name="BlockRange" operation="base_set" value="2.5"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="1"/> 
+		<passive_effect name="BlockDamage" operation="base_set" value="1000"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>
+		<passive_effect name="HarvestCount" operation="base_set" value=".5" tags="butcherHarvest"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="1" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1,2" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="ActionSkillGroup" value="Mining Tools"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
+</item>
 
 </append>
 </configs>

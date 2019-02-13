@@ -297,7 +297,13 @@
 	<ingredient name="resourcePaper" count="1"/>
 </recipe>
 
+<recipe name="Lock Pick" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="2"/>
+</recipe>
 
+<recipe name="Lock Pick" count="1" craft_area="workbench">
+	<ingredient name="resourceScrapIron" count="40"/>
+</recipe>
 
 </append>
 </configs>
