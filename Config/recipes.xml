@@ -180,15 +180,71 @@
 	<ingredient name="meleeBoneShiv" count="2"/>
 </recipe>
 
-<!-- Bulk Items -->
-
-<!-- copy pasta code :)
-
-<recipe name="" count="">
-	<ingredient name="" count=""/>
+<!-- Bio gas -->
+<recipe name="ammoGasCan" count="500" craft_area="chemistryStation" tags="learnable">
+	<ingredient name="drinkJarGrainAlcohol" count="2"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="3"/>
+	<ingredient name="foodCropCorn" count="10"/>
 </recipe>
 
--->
+<recipe name="ammoGasCan" count="500" craft_area="chemistryStation" tags="learnable">
+	<ingredient name="drinkJarGrainAlcohol" count="5"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="drinkJarRiverWater" count="5"/>
+	<ingredient name="foodCropCorn" count="10"/>
+</recipe>
+
+<recipe name="ammoGasCan" count="500" craft_area="chemistryStation" tags="learnable">
+	<ingredient name="drinkJarGrainAlcohol" count="5"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="foodCropCorn" count="7"/>
+</recipe>
+
+<recipe name="ammoGasCan" count="500" craft_area="chemistryStation" tags="learnable">
+	<ingredient name="resourceOilShale" count="6"/>
+	<ingredient name="foodCropCorn" count="5"/>
+	<ingredient name="drinkJarBoiledWater" count="3"/>
+</recipe>
+
+<!-- Repair Kits -->
+<recipe name="resourceRepairKit" count="1">
+	<ingredient name="resourceMechanicalParts" count="1"/>
+	<ingredient name="resourceOil" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+</recipe>
+
+<recipe name="resourceRepairKit" count="1">
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceOil" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="resourceAirFilter" count="1"/>
+</recipe>
+
+<recipe name="resourceRepairKit" count="1">
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceOil" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	<ingredient name="resourceMilitaryFiber" count="2"/>
+</recipe>
+
+<recipe name="resourceRepairKit" count="1">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceOil" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<recipe name="resourceRepairKit" count="1">
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceOil" count="1"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceNail" count="4"/>
+</recipe>
+
 
 </append>
 </configs>
