@@ -176,6 +176,10 @@
 	<ingredient name="resourceWood" count="1"/>
 </recipe>
 
+<recipe name="resourceFemur" count="1">
+	<ingredient name="meleeBoneShiv" count="2"/>
+</recipe>
+
 <!-- Bulk Items -->
 
 <!-- copy pasta code :)
