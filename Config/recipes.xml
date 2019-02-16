@@ -119,21 +119,6 @@
 	<ingredient name="drugAntibiotics" count="1"/>
 </recipe>
 
-<recipe name="Medical Water" count="1" craft_area="campfire">
-	<ingredient name="drinkCanBoiledWater" count="1"/>
-	<ingredient name="drugVitamins" count="1"/>
-</recipe>
-
-<recipe name="Medical Water" count="1" craft_area="campfire">
-	<ingredient name="drinkCanBoiledWater" count="1"/>
-	<ingredient name="drugHerbalAntibiotics" count="1"/>
-</recipe>
-
-<recipe name="Medical Water" count="1" craft_area="campfire">
-	<ingredient name="drinkCanBoiledWater" count="1"/>
-	<ingredient name="medicalSnowberryExtract" count="4"/>
-</recipe>
-
 <!-- Torch -->
 <recipe name="meleeToolTorch" count="1">
 	<ingredient name="resourceCoal" count="2"/>
