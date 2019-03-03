@@ -24,3 +24,5 @@ Adding back in recipes and items missing over the years from various mods or the
 ### Items adding
 
 * Lock pick maybe
+* More Split Recipes
+
