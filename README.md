@@ -15,11 +15,10 @@ Download from git and copy the 'ForgottenRecipes' folder into the 'Mods' folder 
 * Health Waters (From valmod)
 * Medical Kits secondary recipes
 * Small med kit
-* Medical Bandages from Regular Bandages
 * Bandage to medical bandage
 * Coal Torch
 * Weight based Ammo Conversions
-* Enthonol and other gas mixtures
+* Ethanol and other gas mixtures
 * Additional Repair kit recipes
 * Lock pick
 	* Single use bone shiv that brakes metal
