@@ -269,17 +269,17 @@
 
 <!-- Medical Drink -->
 <recipe name="Medical Drink" count="1" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="drinkCanBoiledWater" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
 	<ingredient name="drugVitamins" count="1"/>
 </recipe>
 
 <recipe name="Medical Drink" count="1" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="drinkCanBoiledWater" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
 	<ingredient name="drugHerbalAntibiotics" count="1"/>
 </recipe>
 
 <recipe name="Medical Drink" count="1" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="drinkCanBoiledWater" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
 	<ingredient name="medicalSnowberryExtract" count="4"/>
 </recipe>
 
