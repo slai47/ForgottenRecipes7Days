@@ -1,7 +1,7 @@
 <configs>
 <append xpath="/items">
 
-<item name="Mom's Spagetti">
+<item name="Mom's Spaghetti">
 	<property name="Extends" value="foodCanBeef"/>
 	<property name="CustomIcon" value="spagetti"/>
 	

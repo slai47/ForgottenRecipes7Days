@@ -19,7 +19,7 @@
 	<ingredient name="ammoArrowSteelAP" count="1"/>
 </recipe>
 
-<recipe name="Mom's Spagetti" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+<recipe name="Mom's Spaghetti" count="1" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="drinkCanEmpty" count="1"/>
 	<ingredient name="foodRawMeat" count="3"/>
 	<ingredient name="foodCornMeal" count="2"/>
