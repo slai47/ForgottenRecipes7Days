@@ -3,7 +3,8 @@
 
 <item name="Mom's Spagetti">
 	<property name="Extends" value="foodCanBeef"/>
-
+	<property name="CustomIcon" value="spagetti"/>
+	
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="15"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="7"/>

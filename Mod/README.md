@@ -19,10 +19,13 @@ Adding back in recipes and items missing over the years from various mods or the
 * Weight based Ammo Conversions
 * Enthonal and other gas mixtures
 * Additional Repair kit recipes
+* Lock pick
+	* Single use bone shiv that brakes metal
+* More Split Recipes
 
   
 ### Items adding
 
-* Lock pick maybe
-* More Split Recipes
+* TBD
+
 

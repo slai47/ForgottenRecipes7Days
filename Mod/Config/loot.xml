@@ -1,13 +1,17 @@
 <configs>
 
-<!-- loot group -->
-<lootgroup name="medicaldrink" count="all">
-	<item name="Medical Drink" count="1,2"/>
-</lootgroup>
+<insertBefore xpath="/lootcontainers/lootgroup[@name='questChallenge']">
 
-<lootgroup name="firstaidsmall" count="all">
-	<item name="Small First Aid Kit" count="1,2"/>
-</lootgroup>
+<!-- loot group -->
+	<lootgroup name="medicaldrink" count="all">
+		<item name="Medical Drink" count="1,2"/>
+	</lootgroup>
+
+	<lootgroup name="firstaidsmall" count="all">
+		<item name="Small First Aid Kit" count="1,2"/>
+	</lootgroup>
+	
+</insertBefore>
 
 <!-- Appends Loot -->
 
@@ -38,4 +42,5 @@
 <append xpath="/lootcontainers/lootcontainer[@id='51']">	
 	<item group="firstaidsmall" prob="0.1"/>
 </append>
+
 </configs>
