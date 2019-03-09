@@ -1,4 +1,41 @@
 <configs>
-<!-- Thank you Jayick for these :) -->
 
+<!-- loot group -->
+<lootgroup name="medicaldrink" count="all">
+	<item name="Medical Drink" count="1,2"/>
+</lootgroup>
+
+<lootgroup name="firstaidsmall" count="all">
+	<item name="Small First Aid Kit" count="1,2"/>
+</lootgroup>
+
+<!-- Appends Loot -->
+
+<append xpath="/lootcontainers/lootcontainer[@id='8']">	
+	<item group="medicaldrink" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='46']">	
+	<item group="medicaldrink" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='99']">	
+	<item group="medicaldrink" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='7']">	
+	<item group="firstaidsmall" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='9']">	
+	<item group="firstaidsmall" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='34']">	
+	<item group="firstaidsmall" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='51']">	
+	<item group="firstaidsmall" prob="0.1"/>
+</append>
 </configs>
